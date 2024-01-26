@@ -1,0 +1,6 @@
+passos para a recriação do banco de dados utilizado na aplicação.
+
+CREATE DATABASE loginSpring;
+USE loginSpring;
+CREATE TABLE contas (nome VARCHAR(255) NOT NULL, senha VARCHAR (20), UNIQUE (nome), PRIMARY KEY (nome));
+INSERT INTO contas VALUES ("Emma", "aB2xY9kLpR"), ("Benjamin", "3hTfDg7jQa"), ("Olivia", "sN5mV8oHcZ");

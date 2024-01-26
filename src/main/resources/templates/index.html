@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel = "stylesheet" href = "estiloLogin.css">
+    <title>login com express</title>
+</head>
+<body>
+    <form action = "/paginaLogin" method = "post">
+        <input id = "campoUsuario" class = "camposInserirDados" name = "campoUsuario">
+        <input id = "campoSenha" class = "camposInserirDados" name = "campoSenha" type = "password">
+        <button id = "botaoConfirmar" name = "botaoConfirmar" type="submit">Fazer login</button>
+        <p id = "textoIndicativoUsuario" class = "textosIndicativos">Usuario:</p>
+        <p id = "textoIndicativoSenha" class = "textosIndicativos">Senha:</p>
+    </form>
+</body>
+</html>
